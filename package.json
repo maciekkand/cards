@@ -1,0 +1,32 @@
+{
+  "name": "cards",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "firebase": "firebase emulators:start --import=./local --export-on-exit",
+    "test": "vitest src/tests-jest/intro.test.js"
+  },
+  "dependencies": {
+    "pinia": "^2.1.7",
+    "vue": "^3.4.15",
+    "vue-router": "^4.2.5",
+    "vue3-charts": "^1.1.33",
+    "vuefire": "^3.1.23"
+  },
+  "devDependencies": {
+    "@playwright/test": "^1.43.1",
+    "@types/node": "^20.12.7",
+    "@vitejs/plugin-vue": "^5.0.4",
+    "autoprefixer": "^10.4.17",
+    "firebase": "^10.11.0",
+    "firebase-tools": "^13.7.2",
+    "postcss": "^8.4.35",
+    "tailwindcss": "^3.4.1",
+    "vite": "^5.0.11",
+    "vite-plugin-vue-devtools": "^7.0.20",
+    "vitest": "^1.5.0"
+  }
+}
